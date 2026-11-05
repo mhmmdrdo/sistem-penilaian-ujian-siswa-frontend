@@ -1,6 +1,8 @@
 // const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3000";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3001/api";
+// const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3001/api";
+
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://sistem-penilaian-ujian-siswa-backen-phi.vercel.app/";
 
 export interface ApiResponse<T> {
   data?: T;
