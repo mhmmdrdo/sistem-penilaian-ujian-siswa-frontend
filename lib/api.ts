@@ -4,7 +4,7 @@
 
 const API_URL = (
   process.env.NEXT_PUBLIC_API_URL ||
-  "https://sistem-penilaian-ujian-siswa-backen-phi.vercel.app/api"
+  "https://backend-chi-ebon-13.vercel.app/api"
 ).replace(/\/+$/, "");
 
 export interface ApiResponse<T> {
