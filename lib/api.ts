@@ -2,7 +2,10 @@
 
 // const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3001/api";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://sistem-penilaian-ujian-siswa-backen-phi.vercel.app/";
+const API_URL = (
+  process.env.NEXT_PUBLIC_API_URL ||
+  "https://sistem-penilaian-ujian-siswa-backen-phi.vercel.app/api"
+).replace(/\/+$/, "");
 
 export interface ApiResponse<T> {
   data?: T;
